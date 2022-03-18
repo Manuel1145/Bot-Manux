@@ -3,7 +3,7 @@ const client = new Discord.Client({
     intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES", "GUILD_BANS", "GUILD_EMOJIS_AND_STICKERS", "GUILD_VOICE_STATES"] 
 })
 
-client.login("OTUzMjY5NDAxMzQ2NTA2ODAz.YjCHUA.l9z4efveUJObzwyG05sRqES7z3g")
+client.login("process.env.token")
 
 client.on("ready", () => {
     console.log("Il Bot Manux E' Online")
